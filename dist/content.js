@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener((e,n,r)=>{if(e.type==="REQUEST_PAGE_TEXT")try{const s=document.body.innerText.substring(0,15e3);chrome.runtime.sendMessage({type:"PAGE_TEXT",text:s})}catch{chrome.runtime.sendMessage({type:"ERROR",message:"Failed to extract page text."})}});

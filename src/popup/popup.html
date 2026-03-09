@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI Summarizer</title>
+  </head>
+  <body>
+    <h1>AI Summarizer</h1>
+
+    <!-- API KEY SETUP SECTION -->
+    <div id="apiKeySection">
+      <p>Enter your OpenAI API Key</p>
+      <input type="password" id="apiKeyInput" placeholder="sk-..." />
+      <button id="saveKeyBtn">Save Key</button>
+    </div>
+
+    <!-- SUMMARIZER SECTION -->
+    <div id="summarizeSection" style="display:none;">
+      <p id="summary"></p>
+      <button id="submitBtn">Summarize this page!</button>
+    </div>
+
+    <script type="module" src="./popup.js"></script>
+  </body>
+</html>
