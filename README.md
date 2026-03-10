@@ -7,7 +7,6 @@ using an AI model
 
 The extension follows a message-passing architecture between the content script, background script, and popup interface
 
-
 ## Features
 
 >Extract webpage text automatically
@@ -21,7 +20,6 @@ The extension follows a message-passing architecture between the content script,
 >Chrome Extension APIs
 >Vite (build tool)
 >Fetch API for AI requests
-
 
 ## How to run this on your device?
 
