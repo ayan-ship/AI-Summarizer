@@ -1,6 +1,6 @@
 # AI SUMMARIZER
 
-## Project Overview 
+## Project Overview
 
 This chrome extension extract the content of your webpage and summarizes it for you
 using an AI model
@@ -45,5 +45,5 @@ npm run build
 
 ## Future Improvement
 
->User would be able to talk to the webpage and ask relevant question to the AI 
+>User would be able to talk to the webpage and ask relevant question to the AI
 >User would not need to generate the your own api-key rather I will use my own api-key and user and directly talk to the AI without much hassel
