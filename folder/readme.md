@@ -17,13 +17,10 @@ this code is differnt from the one in main branch i am writing this in "another-
 
 //hello from the another branch i only want to check that when i commit something from another branch does it show prpoerly??
 
-<<<<<<< Updated upstream
 //hello for stashing
 //unsaved
 unsaved 2
 unsaved 3
 //stashing ho jaaye choo mantar
 //stashing nahi hui ==)
-=======
 //hllo
->>>>>>> Stashed changes
