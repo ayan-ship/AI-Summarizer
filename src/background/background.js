@@ -68,7 +68,7 @@ async function generateSummary(text) {
 
     // Get API key from storage
     const result = await chrome.storage.local.get(["openaiKey"]);
-    const apiKey = result;
+    const apiKey = result.openaiKey;
 
     if (!apiKey) {
       chrome.runtime.sendMessage({
