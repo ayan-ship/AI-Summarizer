@@ -24,3 +24,5 @@ unsaved 3
 //stashing ho jaaye choo mantar
 //stashing nahi hui ==)
 //hllo
+
+// hello from stashing-example;
